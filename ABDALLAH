@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Brokerage Office</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #003d80;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .services, .contact {
+            margin-top: 2rem;
+        }
+        .service {
+            background: white;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Insurance Brokerage Office</h1>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="container">
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Car Insurance</h3>
+                <p>We provide comprehensive car insurance plans tailored to your needs.</p>
+            </div>
+            <div class="service">
+                <h3>Health Insurance</h3>
+                <p>Protect yourself and your family with our trusted health insurance packages.</p>
+            </div>
+            <div class="service">
+                <h3>Property Insurance</h3>
+                <p>Secure your assets with our reliable property insurance policies.</p>
+            </div>
+        </section>
+        <section id="clients" class="clients">
+            <h2>Our Clients</h2>
+            <p>Join thousands of satisfied clients. <a href="#">Register Now</a>.</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Insurance Brokerage Office. All rights reserved.</p>
+        <p>Hosted on GoDaddy. To deploy your site, log in to your GoDaddy account, navigate to "My Products," and upload your site files to the hosting server or domain folder using their File Manager or an FTP client.</p>
+    </footer>
+</body>
+</html>
